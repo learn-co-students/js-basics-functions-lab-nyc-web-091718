@@ -24,7 +24,6 @@ function calculatesFarePrice(start, end) {
   if (distanceTravelledInFeet(start, end) <= 400) {
     return 0
 }    else if (distanceTravelledInFeet(start, end) > 400 && distanceTravelledInFeet(start, end) <= 2000) {
-    // return parseFloat(0.02 * distanceTravelledInFeet(start, end) - 8).toFixed(2)
     return Number((0.02 * distanceTravelledInFeet(start, end) - 8).toFixed(2))
   } else if (distanceTravelledInFeet(start, end) > 2000 && distanceTravelledInFeet(start, end) <= 2500) {
     return 25
@@ -32,3 +31,4 @@ function calculatesFarePrice(start, end) {
     return 'cannot travel that far'
   }
 }
+// return .02 * (distance - 400);
