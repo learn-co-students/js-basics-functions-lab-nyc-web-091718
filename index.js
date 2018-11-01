@@ -1,9 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(street) {
   //returns the number of blocks given a value
-
 return Math.abs(42-street)
-
 }
 
 
@@ -12,13 +10,7 @@ function distanceFromHqInFeet(street) {
 }
 
 function distanceTravelledInFeet(start, end) {
-//   if (start > end) {
-//   return (start - end) * 264
-// }  else
-// return (end - start) * 264
-
   return Math.abs(start - end) * 264
-
 }
 
 function calculatesFarePrice(start, end) {
@@ -33,4 +25,3 @@ function calculatesFarePrice(start, end) {
     return 'cannot travel that far'
   }
 }
-// return .02 * (distance - 400);
