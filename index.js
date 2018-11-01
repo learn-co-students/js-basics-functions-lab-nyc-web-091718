@@ -1,11 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(street) {
   //returns the number of blocks given a value
-//   if (street > 42) {
-//   return (street - 42)
-// }  else {
-//   return (42 - street)
-// }
 
 return Math.abs(42-street)
 
